@@ -1,0 +1,173 @@
+*{
+    font-family: Roboto, "Segoe UI", Georgia, serif;
+}
+
+body{
+    background-color: ghostwhite;
+    margin: auto;
+}
+
+h1{
+    margin-top: 0;
+    padding-bottom:10px;
+    overflow: hidden;
+}
+
+img{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    float: right;
+    max-width: 300px;
+    border-radius:10%;
+    overflow:hidden;
+}
+
+header > h1{
+    text-align: left;
+    padding-left: 1rem;
+    color: ghostwhite;
+    text-shadow:
+            -1px -1px 0 black,
+            1px -1px 0 black,
+            -1px 1px 0 black,
+            1px 1px 0 black;
+}
+
+main{
+    margin-left: 100px;
+}
+
+header{
+    margin-top:0;
+}
+
+input{
+    margin-bottom: 20px;
+    align-content: center;
+}
+
+p{
+    max-width: 50%;
+    font-size: large;
+}
+
+.sticky-footer{
+    width: 100%;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0 0;
+    position: fixed;
+    bottom: 0pt;
+    left: 0pt;
+}
+
+footer{
+    font-weight: 700;
+    width: 100%;
+    margin:auto;
+}
+
+header, footer{
+    text-align: center;
+}
+
+header, footer{
+    background-color: #333;
+    color: white;
+}
+
+label{
+    display:inline-block;
+    font-weight: 500;
+}
+
+table{
+    width: 25%;
+}
+
+thead{
+    background-color: #333;
+    color: white;
+}
+
+tbody{
+    text-align: center;
+}
+
+table {
+    border: 2px solid black;
+    border-spacing: 0;
+}
+
+th, tr, td {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 0;
+}
+
+td > input[type=submit]{
+    margin: auto;
+}
+
+td > input[type=submit]{
+    margin: auto;
+}
+
+input[type=submit]{
+    color: white;
+    background-color: #333;
+    border: none;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+/*Navbar*/
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+header li {
+    float: left;
+}
+
+header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header li a:hover {
+    background-color: #111;
+}
+
+/*flex spacing*/
+.flex-grid {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+}
+
+.flex-grid-thirds {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-grid-thirds .col {
+    width: 32%;
+}
+
+button{
+    margin-right:10px;
+    margin-left:10px;
+    margin-bottom:10px;
+    
+}
