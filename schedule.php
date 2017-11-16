@@ -25,7 +25,7 @@ $services = get_services($db);
                     </select>
                     <br>
                     <label for="note">Notes:</label>
-                    <textarea name="note" cols="30" rows="5"></textarea>
+                    <textarea name="note" cols="20" rows="2"></textarea>
                     <input type="submit" id="submit" value="submit">
                 </form>
             </div>

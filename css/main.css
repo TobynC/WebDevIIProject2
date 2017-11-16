@@ -153,6 +153,10 @@ header li a:hover {
     background-color: #111;
 }
 
+a{
+    cursor: pointer;
+}
+
 /*flex spacing*/
 .flex-grid {
     display: flex;
@@ -176,4 +180,8 @@ button{
     margin-left:10px;
     margin-bottom:10px;
     
+}
+
+.login-nav{
+    float: right;
 }
