@@ -27,6 +27,7 @@
                     echo "<li><a onclick=\"location.href='login_files/logout.php'\">Logout</a></li>";
                 }
             } else {
+                echo "<li><a onclick=\"location.href='login_files/login_start.php'\">View Past Appointments</a></li>";
                 echo "<li><a onclick=\"location.href='login_files/login_start.php'\">Login</a></li>";
             }
             ?>
