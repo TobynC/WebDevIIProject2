@@ -2,24 +2,21 @@
 
 $description='Project 2, Collinsworth/Dodds';
 $pageTitle='Laptop Repair';
+if(isset($_POST['service'])){
+unset($_POST['service']);}
 include "inc/header.php";
 echo '<main>';
-echo '<p>Please </p>';
-echo '<ul>'
-. '<li>'
-        . 'Software Troubleshooting and "Tune-Up"</li>'
-        . '<li>'
-        . 'Virus Detection and Removal</li>'
-        . '<li>'
-        . 'Battery Replacement</li>'
-        . '<li>'
-        . 'Screen Repair/Replacement</li>'
-        . '<li>'
-        . 'Hardware Troubleshooting</li>'
-        . '</ul>';
+echo '<p>Please select the option that best suits your needs:</p>';
+echo '<form method="post" action="submit.php"><select name="service">'
+. '<option value="1">Software Troubleshooting and "Tune-Up"</option>'
+        . '<option value="2">Virus Detection and removal</option>'
+        . '<option value="3">Battery Replacement</option>'
+        . '<option value="4">Screen Repair/Replacement</option>'
+        . '<option value="5">Hardware Troubleshooting</option></select><br>'
+        . '<input type="submit" id="submit" value="submit">'
+        . '</form>';
 
-echo '<button onclick="location.href=\'login.php\'">Login</button>';
-echo '<button onclick="location.href=\'schedule.php\'">Schedule Appointment</button>';
-echo '<button onclick="location.href=\'past.php\'">Appointment History</button>';
+echo '<button onclick="location.href=\'index.php\'">Return to Home</button>';
+
 echo '</main>';
 include 'inc/footer.php';
