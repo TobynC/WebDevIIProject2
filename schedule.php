@@ -2,23 +2,28 @@
 $description='Project 2, Collinsworth/Dodds';
 $pageTitle='Laptop Repair';
 include "inc/header.php";
+include ('inc/query_functions.php');
+include ('inc/open_db.php');
 
 if (isset($_POST['service'])) {
     unset($_POST['service']);
 }
 
-echo '<main>';
-echo '<p>Please select the option that best suits your needs:</p>';
-echo '<form method="post" action="submit.php"><select name="service">'
-    . '<option value="1">Software Troubleshooting and "Tune-Up"</option>'
-    . '<option value="2">Virus Detection and removal</option>'
-    . '<option value="3">Battery Replacement</option>'
-    . '<option value="4">Screen Repair/Replacement</option>'
-    . '<option value="5">Hardware Troubleshooting</option></select><br>'
-    . '<input type="submit" id="submit" value="submit">'
-    . '</form>';
+$services = get_services($db);
+?>
+    <main>
+        <p>Please select the option that best suits your needs:</p>
+        <form method="post" action="submit.php">
+            <select name="service">
+            <?php
+                for($i = 0; $i < count($services); $i++){
+                    echo "<option value='{$services[$i]['id']}'>{$services[$i]['description']}</option>";
+                }
+            ?>
+            </select>
+            <br>
+            <input type="submit" id="submit" value="submit">
+        </form>
+    </main>
 
-echo '<button onclick="location.href=\'index.php\'">Return to Home</button>';
-echo '</main>';
-
-include 'inc/footer.php';
+<?php include 'inc/footer.php'; ?>

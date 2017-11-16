@@ -8,3 +8,12 @@ function get_service($db, $service){
     $statement->closeCursor();
     return $result;
 }
+
+function get_services($db){
+    $query="select * from services;";
+    $statement = $db->prepare($query);
+    $statement->execute();
+    $result = $statement->fetchAll(PDO::FETCH_ASSOC);
+    $statement->closeCursor();
+    return $result;
+}
