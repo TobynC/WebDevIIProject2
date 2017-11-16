@@ -95,8 +95,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/inc/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+            <state relative-caret-position="352">
+              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -401,7 +401,7 @@
       <workItem from="1507594894806" duration="9161000" />
       <workItem from="1507743675534" duration="49000" />
       <workItem from="1510696841898" duration="4330000" />
-      <workItem from="1510857070257" duration="1083000" />
+      <workItem from="1510857070257" duration="1118000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Main">
       <created>1506108092085</created>
@@ -494,11 +494,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510857971236</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Fixed CSS">
+      <created>1510858163112</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1510858163112</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127396000" />
+    <option name="totallyTimeSpent" value="127431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -542,7 +549,8 @@
     <MESSAGE value="Display cart example" />
     <MESSAGE value="Added cart and confirm page." />
     <MESSAGE value="Refactored Submit and header/footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored Submit and header/footer" />
+    <MESSAGE value="Fixed CSS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed CSS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -793,8 +801,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/inc/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        <state relative-caret-position="352">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
           <folding />
         </state>
       </provider>
