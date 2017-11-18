@@ -83,7 +83,7 @@ header, footer{
 }
 
 label{
-    display:inline-block;
+    display:block;
     font-weight: 500;
     margin-top: 1rem;
 }
@@ -182,6 +182,16 @@ button{
     
 }
 
+select{
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
 .login-nav{
     float: right;
+}
+
+.underline{
+    display: inline;
+    text-decoration: underline;
 }

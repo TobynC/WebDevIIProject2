@@ -15,18 +15,21 @@ $services = get_services($db);
         <div class="flex-grid">
             <div class="col">
                 <p>Please select the option that best suits your needs:</p>
-                <form method="post" action="submit.php">
-                    <select name="service">
+                <form method="post" action="schedule_two.php">
+                    <select required name="service">
+                        <option value=""></option>
                         <?php
                         for($i = 0; $i < count($services); $i++){
                             echo "<option value='{$services[$i]['id']}'>{$services[$i]['description']}</option>";
                         }
                         ?>
                     </select>
-                    <br>
                     <label for="note">Notes:</label>
                     <textarea name="note" cols="20" rows="2"></textarea>
-                    <input type="submit" id="submit" value="submit">
+                    <label for="date">Choose a day:</label>
+                    <input type="date" name="date" required>
+                    <br>
+                    <input type="submit" value="Next >>">
                 </form>
             </div>
         </div>
