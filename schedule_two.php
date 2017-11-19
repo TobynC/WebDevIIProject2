@@ -10,7 +10,7 @@
        $service = htmlspecialchars($_POST['service']);
        $date = htmlspecialchars($_POST['date']);
        $note = htmlspecialchars($_POST['note']);
-       $times = get_available_times($db, $date);
+       $times = get_available_times($db, $date, get_service($db, $service)[0]['time']);
     }
 ?>
 <main>

@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df64c24e-b8ca-4c28-8fe7-4afd14e9f375" name="Default" comment="Cleaned up the Index page and added links to navbar">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schedule_two.php" />
+    <list default="true" id="df64c24e-b8ca-4c28-8fe7-4afd14e9f375" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/query_functions.php" afterPath="$PROJECT_DIR$/inc/query_functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schedule.php" afterPath="$PROJECT_DIR$/schedule.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/submit.php" afterPath="$PROJECT_DIR$/submit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schedule_two.php" afterPath="$PROJECT_DIR$/schedule_two.php" />
     </list>
     <ignored path="open_db.php" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,11 +27,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="submit.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="submit.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/submit.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
-              <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -73,18 +70,18 @@
       <file leaf-file-name="schedule.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/schedule.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="100">
+              <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schedule_two.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="schedule_two.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/schedule_two.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="22">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -93,25 +90,18 @@
       <file leaf-file-name="query_functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inc/query_functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+            <state relative-caret-position="374">
+              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
               <folding>
-                <marker date="1510982322497" expanded="true" signature="56:104" ph="SELECT descr... " />
-                <marker date="1510982322497" expanded="true" signature="329:351" ph="select * fro... services" />
-                <marker date="1510982322497" expanded="true" signature="672:774" ph="select date,... " />
-                <marker date="1510982322497" expanded="true" signature="672:781" ph="select date,... " />
-                <marker date="1510982322497" expanded="true" signature="672:794" ph="select date,... " />
-                <marker date="1510982322497" expanded="true" signature="672:795" ph="select date,... " />
-                <marker date="1510982322497" expanded="true" signature="672:796" ph="select date,... " />
-                <marker date="1510982322497" expanded="true" signature="672:801" ph="select DATE_... " />
-                <marker date="1510982322497" expanded="true" signature="1188:1236" ph="select date " />
-                <marker date="1510982322497" expanded="true" signature="1188:1237" ph="select date " />
-                <marker date="1510982322497" expanded="true" signature="1188:1249" ph="select date " />
-                <marker date="1510982322497" expanded="true" signature="1188:1253" ph="select date " />
-                <marker date="1510982322497" expanded="true" signature="1188:1264" ph="select date " />
-                <marker date="1510982322497" expanded="true" signature="1188:1272" ph="select date " />
-                <marker date="1510982322497" expanded="true" signature="1188:1284" ph="select date " />
-                <marker date="1510982322497" expanded="true" signature="1188:1300" ph="select date " />
+                <marker date="1511129227662" expanded="true" signature="56:104" ph="SELECT descr... " />
+                <marker date="1511129227662" expanded="true" signature="329:351" ph="select * fro... services" />
+                <marker date="1511129227662" expanded="true" signature="666:768" ph="select date,... " />
+                <marker date="1511129227662" expanded="true" signature="666:775" ph="select date,... " />
+                <marker date="1511129227662" expanded="true" signature="666:788" ph="select date,... " />
+                <marker date="1511129227662" expanded="true" signature="666:789" ph="select date,... " />
+                <marker date="1511129227662" expanded="true" signature="666:790" ph="select date,... " />
+                <marker date="1511129227662" expanded="true" signature="666:795" ph="select DATE_... " />
+                <marker date="1511129227662" expanded="true" signature="666:813" ph="select DATE_... " />
               </folding>
             </state>
           </provider>
@@ -120,7 +110,7 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
+            <state relative-caret-position="4092">
               <caret line="186" column="23" lean-forward="false" selection-start-line="186" selection-start-column="23" selection-end-line="186" selection-end-column="23" />
               <folding />
             </state>
@@ -180,9 +170,9 @@
         <option value="$PROJECT_DIR$/inc/header.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/schedule.php" />
+        <option value="$PROJECT_DIR$/submit.php" />
         <option value="$PROJECT_DIR$/schedule_two.php" />
         <option value="$PROJECT_DIR$/inc/query_functions.php" />
-        <option value="$PROJECT_DIR$/submit.php" />
       </list>
     </option>
   </component>
@@ -200,9 +190,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1721" />
-    <option name="height" value="1407" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="2576" />
+    <option name="height" value="1416" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -219,8 +210,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -453,7 +444,12 @@
       <workItem from="1510866433201" duration="6356000" />
       <workItem from="1510879136961" duration="1800000" />
       <workItem from="1510934709685" duration="15542000" />
-      <workItem from="1510977941880" duration="4504000" />
+      <workItem from="1510977941880" duration="4536000" />
+      <workItem from="1510983509848" duration="23000" />
+      <workItem from="1511028799043" duration="3917000" />
+      <workItem from="1511055994522" duration="3651000" />
+      <workItem from="1511061135480" duration="941000" />
+      <workItem from="1511124756138" duration="4072000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Main">
       <created>1506108092085</created>
@@ -595,33 +591,40 @@
       <option name="project" value="LOCAL" />
       <updated>1510874130577</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Added more to the scheduling">
+      <created>1510982472553</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1510982472553</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159493000" />
+    <option name="totallyTimeSpent" value="172129000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1721" height="1407" extended-state="0" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19566526" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20349762" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969603" sideWeight="0.50158983" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298887" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969603" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969603" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40188384" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3928293" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969603" sideWeight="0.49841017" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969603" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -648,7 +651,8 @@
     <MESSAGE value="Modified the schedule page to use the database" />
     <MESSAGE value="Modified the schedule page" />
     <MESSAGE value="Cleaned up the Index page and added links to navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up the Index page and added links to navbar" />
+    <MESSAGE value="Added more to the scheduling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more to the scheduling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -658,26 +662,11 @@
           <line>25</line>
           <option name="timeStamp" value="79" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/inc/query_functions.php</url>
-          <line>58</line>
-          <option name="timeStamp" value="100" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/schedule_two.php</url>
-          <line>12</line>
-          <option name="timeStamp" value="108" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/schedule_two.php</url>
-          <line>8</line>
-          <option name="timeStamp" value="109" />
-        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="110" />
+      <option name="time" value="117" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -830,14 +819,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pastappointments.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inc/open_db.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -860,10 +841,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/../../phpMyAdmin/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="264">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/submit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4092">
+          <caret line="186" column="23" lean-forward="false" selection-start-line="186" selection-start-column="23" selection-end-line="186" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -872,73 +868,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../phpMyAdmin/index.php">
+    <entry file="file://$PROJECT_DIR$/pastappointments.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <marker date="1490789731000" expanded="true" signature="4176:4203" ph="..." />
-          </folding>
+        <state relative-caret-position="132">
+          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/schedule.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="186" column="23" lean-forward="false" selection-start-line="186" selection-start-column="23" selection-end-line="186" selection-end-column="23" />
+        <state relative-caret-position="100">
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/inc/query_functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+        <state relative-caret-position="374">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding>
-            <marker date="1510982322497" expanded="true" signature="56:104" ph="SELECT descr... " />
-            <marker date="1510982322497" expanded="true" signature="329:351" ph="select * fro... services" />
-            <marker date="1510982322497" expanded="true" signature="672:774" ph="select date,... " />
-            <marker date="1510982322497" expanded="true" signature="672:781" ph="select date,... " />
-            <marker date="1510982322497" expanded="true" signature="672:794" ph="select date,... " />
-            <marker date="1510982322497" expanded="true" signature="672:795" ph="select date,... " />
-            <marker date="1510982322497" expanded="true" signature="672:796" ph="select date,... " />
-            <marker date="1510982322497" expanded="true" signature="672:801" ph="select DATE_... " />
-            <marker date="1510982322497" expanded="true" signature="1188:1236" ph="select date " />
-            <marker date="1510982322497" expanded="true" signature="1188:1237" ph="select date " />
-            <marker date="1510982322497" expanded="true" signature="1188:1249" ph="select date " />
-            <marker date="1510982322497" expanded="true" signature="1188:1253" ph="select date " />
-            <marker date="1510982322497" expanded="true" signature="1188:1264" ph="select date " />
-            <marker date="1510982322497" expanded="true" signature="1188:1272" ph="select date " />
-            <marker date="1510982322497" expanded="true" signature="1188:1284" ph="select date " />
-            <marker date="1510982322497" expanded="true" signature="1188:1300" ph="select date " />
+            <marker date="1511129227662" expanded="true" signature="56:104" ph="SELECT descr... " />
+            <marker date="1511129227662" expanded="true" signature="329:351" ph="select * fro... services" />
+            <marker date="1511129227662" expanded="true" signature="666:768" ph="select date,... " />
+            <marker date="1511129227662" expanded="true" signature="666:775" ph="select date,... " />
+            <marker date="1511129227662" expanded="true" signature="666:788" ph="select date,... " />
+            <marker date="1511129227662" expanded="true" signature="666:789" ph="select date,... " />
+            <marker date="1511129227662" expanded="true" signature="666:790" ph="select date,... " />
+            <marker date="1511129227662" expanded="true" signature="666:795" ph="select DATE_... " />
+            <marker date="1511129227662" expanded="true" signature="666:813" ph="select DATE_... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/schedule_two.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/submit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="22">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
