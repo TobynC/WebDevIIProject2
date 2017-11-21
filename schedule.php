@@ -1,7 +1,13 @@
 <?php
+session_start();
+if (!isset($_SESSION['user'])){
+    header("Location: login_files/login_start.php");
+}
+
 $description='Project 2, Collinsworth/Dodds';
 $pageTitle='Laptop Repair';
 include "inc/header.php";
+
 include ('inc/query_functions.php');
 include ('inc/open_db.php');
 

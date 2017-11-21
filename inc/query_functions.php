@@ -29,6 +29,15 @@ function get_times($db, $date){
     }
 }
 
+function get_appointments($db, $user){
+    $query="select * from appointments WHERE username=\"$user\"";
+    $statement = $db->prepare($query);
+    $statement->execute();
+    $result = $statement->fetchAll(PDO::FETCH_ASSOC);
+    $statement->closeCursor();
+    return $result;
+}
+
 function get_available_times($db, $date, $appointmentDuration){
     $availableTimes = array();
     $times = get_times($db, $date);

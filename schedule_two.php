@@ -1,17 +1,21 @@
 <?php
-    $description='Project 2, Collinsworth/Dodds';
-    $pageTitle='Laptop Repair';
-    include "inc/header.php";
-    include ('inc/query_functions.php');
-    include ('inc/open_db.php');
+session_start();
+if (!isset($_SESSION['user'])){
+    header("Location: login_files/login_start.php");
+}
+$description='Project 2, Collinsworth/Dodds';
+$pageTitle='Laptop Repair';
+include "inc/header.php";
+include ('inc/query_functions.php');
+include ('inc/open_db.php');
 
-    //check post
-    if($_POST){
-       $service = htmlspecialchars($_POST['service']);
-       $date = htmlspecialchars($_POST['date']);
-       $note = htmlspecialchars($_POST['note']);
-       $times = get_available_times($db, $date, get_service($db, $service)[0]['time']);
-    }
+//check post
+if($_POST){
+   $service = htmlspecialchars($_POST['service']);
+   $date = htmlspecialchars($_POST['date']);
+   $note = htmlspecialchars($_POST['note']);
+   $times = get_available_times($db, $date, get_service($db, $service)[0]['time']);
+}
 ?>
 <main>
     <div class="flex-grid">

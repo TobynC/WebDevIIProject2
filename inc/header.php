@@ -19,14 +19,17 @@
         <li><a onclick="location.href='schedule.php'">Schedule Appointment</a></li>
         <div class="login-nav">
             <?php
-            if (isset($_SESSION['type'])) {
+            if (isset($_SESSION['type']) && isset($_SESSION['login'])) {
 
                 $login_status = $_SESSION['login'];
                 if ($login_status == 'accept_existing' || $login_status == 'accept_new') {
                     echo "<li><a onclick=\"location.href='pastappointments.php'\">View Past Appointments</a></li>";
                     echo "<li><a onclick=\"location.href='login_files/logout.php'\">Logout</a></li>";
+                }else {
+                    echo "<li><a onclick=\"location.href='login_files/login_start.php'\">View Past Appointments</a></li>";
+                    echo "<li><a onclick=\"location.href='login_files/login_start.php'\">Login</a></li>";
                 }
-            } else {
+            }else {
                 echo "<li><a onclick=\"location.href='login_files/login_start.php'\">View Past Appointments</a></li>";
                 echo "<li><a onclick=\"location.href='login_files/login_start.php'\">Login</a></li>";
             }
